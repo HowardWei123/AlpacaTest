@@ -25,18 +25,19 @@ load_dotenv()
 alpaca_api_key = os.getenv("APCA-API-KEY-ID")
 alpaca_secret_key = os.getenv("APCA-API-SECRET-KEY")
 
-# stock_hist_client = StockHistoricalDataClient(alpaca_api_key, alpaca_secret_key)
+stock_hist_client = StockHistoricalDataClient(alpaca_api_key, alpaca_secret_key)
 
-# request_params = StockTradesRequest(
-#   symbol_or_symbols=["AAPL"],
-#   timeframe=TimeFrame.Day,
-#   start="2024-10-03",
-#   end="2024-10-04"
-# )
+request_params = StockTradesRequest(
+  symbol_or_symbols=["AAPL"],
+  timeframe=TimeFrame.Day,
+  start="2024-10-03",
+  end="2024-10-04",
+  limit=100
+)
 
-# trades = stock_hist_client.get_stock_trades(request_params=request_params)
+trades = stock_hist_client.get_stock_trades(request_params=request_params)
 
-# print(trades)
+print(trades)
 
 from alpaca.data.live import StockDataStream
 

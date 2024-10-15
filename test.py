@@ -30,8 +30,8 @@ stock_hist_client = StockHistoricalDataClient(alpaca_api_key, alpaca_secret_key)
 request_params = StockTradesRequest(
   symbol_or_symbols=["AAPL"],
   timeframe=TimeFrame.Day,
-  start="2024-10-03",
-  end="2024-10-04",
+  start="2024-10-15",
+  end="2024-10-15",
   limit=100
 )
 

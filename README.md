@@ -7,3 +7,5 @@
 - [Historical Market Data API](https://docs.alpaca.markets/reference/stockauctions-1)
 
 - [WebSocket Stream for Live Market Data](https://docs.alpaca.markets/docs/streaming-market-data)
+
+- [Alpaca-py Full Documentation](https://alpaca.markets/sdks/python/getting_started.html)

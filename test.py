@@ -11,7 +11,8 @@ load_dotenv()
 alpaca_api_key = os.getenv("APCA-API-KEY-ID")
 alpaca_secret_key = os.getenv("APCA-API-SECRET-KEY")
 
-target_symbols = ['NVDA', 'AAPL', 'SPY']
+target_symbols = ['AAPL', 'ABNB', 'AMD', 'AMC', 'BRK.B', 'BND', 'BEP', 'DIS', 'GME', 'GOOG', 'KO', 'MSFT', 'NEE', 'NVDA', 'PG', 'PLTR', 'SPY', 'TSLA', 'UL', 'V', 'VTI', 'WMT', 'BSV', 'IWM', 'ZM']
+
 
 def stock_historical():
   stock_hist_client = StockHistoricalDataClient(alpaca_api_key, alpaca_secret_key)
@@ -19,19 +20,22 @@ def stock_historical():
   request_params = StockBarsRequest(
     symbol_or_symbols=target_symbols,
     timeframe=TimeFrame(1, TimeFrameUnit.Day),
-    start="2024-09-19",
-    end="2024-10-19",
+    start="2024-09-20",
   )
 
   trades = stock_hist_client.get_stock_bars(request_params=request_params)
 
-  # Iterate through the symbols and their respective data
-  for symbol in trades.data.keys():
-      print(f"Data for {symbol}:")
-      for bar in trades.data[symbol]:
-          print(bar)
-          print()
-      print()  # For better readability between symbols
+  # Open the output file in write mode
+  with open('output.txt', 'w') as f:
+      # Sort the keys of trades.data
+        sorted_symbols = sorted(trades.data.keys())
+        
+        # Iterate through the sorted symbols and their respective data
+        for symbol in sorted_symbols:
+            f.write(f"Data for {symbol}:\n")  # Write the symbol to the file
+            for bar in trades.data[symbol]:
+                f.write(f"{bar}\n")  # Write each bar to the file
+            f.write("\n")  # For better readability between symbols
 
 
 def stock_live():

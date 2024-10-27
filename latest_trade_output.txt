@@ -1,0 +1,250 @@
+Data for AAPL:
+('symbol', 'AAPL')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 59, 929688, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 231.22)
+('size', 101.0)
+('id', 7912)
+('conditions', ['@'])
+('tape', 'C')
+
+Data for ABNB:
+('symbol', 'ABNB')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 58, 938611, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 134.62)
+('size', 100.0)
+('id', 2320)
+('conditions', ['@'])
+('tape', 'C')
+
+Data for AMC:
+('symbol', 'AMC')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 59, 289891, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 4.33)
+('size', 1154.0)
+('id', 57648883121718)
+('conditions', [' '])
+('tape', 'A')
+
+Data for AMD:
+('symbol', 'AMD')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 58, 943476, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 156.26)
+('size', 100.0)
+('id', 6941)
+('conditions', ['@'])
+('tape', 'C')
+
+Data for BEP:
+('symbol', 'BEP')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 47, 871608, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 27.705)
+('size', 100.0)
+('id', 57644623743084)
+('conditions', [' '])
+('tape', 'A')
+
+Data for BND:
+('symbol', 'BND')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 4, 456480, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 73.155)
+('size', 100.0)
+('id', 874)
+('conditions', ['@'])
+('tape', 'C')
+
+Data for BRK.B:
+('symbol', 'BRK.B')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 54, 712674, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 454.1)
+('size', 100.0)
+('id', 57648432172631)
+('conditions', [' '])
+('tape', 'A')
+
+Data for BSV:
+('symbol', 'BSV')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 40, 53, 804770, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 77.775)
+('size', 200.0)
+('id', 57536679659354)
+('conditions', [' '])
+('tape', 'B')
+
+Data for DIS:
+('symbol', 'DIS')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 59, 16731, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 95.04)
+('size', 100.0)
+('id', 57648853699385)
+('conditions', [' '])
+('tape', 'A')
+
+Data for GME:
+('symbol', 'GME')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 53, 581809, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 20.58)
+('size', 100.0)
+('id', 57648316566832)
+('conditions', [' '])
+('tape', 'A')
+
+Data for GOOG:
+('symbol', 'GOOG')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 55, 37403, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 167.05)
+('size', 199.0)
+('id', 4558)
+('conditions', ['@'])
+('tape', 'C')
+
+Data for IWM:
+('symbol', 'IWM')
+('timestamp', datetime.datetime(2024, 10, 25, 20, 5, 32, 583583, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 218.7)
+('size', 500.0)
+('id', 57652291455060)
+('conditions', [' ', 'T'])
+('tape', 'B')
+
+Data for KO:
+('symbol', 'KO')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 58, 495864, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 66.92)
+('size', 100.0)
+('id', 57648818171961)
+('conditions', [' '])
+('tape', 'A')
+
+Data for MSFT:
+('symbol', 'MSFT')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 56, 667329, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 428.23)
+('size', 190.0)
+('id', 7972)
+('conditions', ['@'])
+('tape', 'C')
+
+Data for NEE:
+('symbol', 'NEE')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 53, 101419, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 81.45)
+('size', 100.0)
+('id', 57648266297687)
+('conditions', [' '])
+('tape', 'A')
+
+Data for NVDA:
+('symbol', 'NVDA')
+('timestamp', datetime.datetime(2024, 10, 25, 20, 10, 15, 812895, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 141.48)
+('size', 235.0)
+('id', 20089)
+('conditions', ['@', 'T'])
+('tape', 'C')
+
+Data for PG:
+('symbol', 'PG')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 54, 101143, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 168.27)
+('size', 100.0)
+('id', 57648367041075)
+('conditions', [' '])
+('tape', 'A')
+
+Data for PLTR:
+('symbol', 'PLTR')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 57, 921018, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 44.85)
+('size', 100.0)
+('id', 57648765882994)
+('conditions', [' '])
+('tape', 'A')
+
+Data for SPY:
+('symbol', 'SPY')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 59, 929205, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 579.01)
+('size', 1200.0)
+('id', 57648918319992)
+('conditions', [' '])
+('tape', 'B')
+
+Data for TSLA:
+('symbol', 'TSLA')
+('timestamp', datetime.datetime(2024, 10, 25, 20, 55, 1, 216049, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 268.72)
+('size', 100.0)
+('id', 25908)
+('conditions', ['@', 'T'])
+('tape', 'C')
+
+Data for UL:
+('symbol', 'UL')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 55, 932812, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 61.69)
+('size', 309.0)
+('id', 57648568691525)
+('conditions', [' '])
+('tape', 'A')
+
+Data for V:
+('symbol', 'V')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 51, 556427, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 281.74)
+('size', 100.0)
+('id', 57648112694594)
+('conditions', [' '])
+('tape', 'A')
+
+Data for VTI:
+('symbol', 'VTI')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 52, 55126, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 285.54)
+('size', 100.0)
+('id', 57648164125780)
+('conditions', [' '])
+('tape', 'B')
+
+Data for WMT:
+('symbol', 'WMT')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 59, 411578, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 82.52)
+('size', 200.0)
+('id', 57648884761690)
+('conditions', [' '])
+('tape', 'A')
+
+Data for ZM:
+('symbol', 'ZM')
+('timestamp', datetime.datetime(2024, 10, 25, 19, 59, 53, 706627, tzinfo=TzInfo(UTC)))
+('exchange', 'V')
+('price', 72.68)
+('size', 100.0)
+('id', 2092)
+('conditions', ['@'])
+('tape', 'C')
+

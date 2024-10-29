@@ -5,11 +5,12 @@ from alpaca.data import StockBarsRequest, StockLatestBarRequest
 from alpaca.data import StockQuotesRequest, StockLatestQuoteRequest
 from alpaca.data import StockTradesRequest, StockLatestTradeRequest
 from alpaca.data import StockSnapshotRequest
+from alpaca.data import NewsClient, NewsRequest
 
-
-from alpaca.data.live import StockDataStream
+from alpaca.data.live import StockDataStream, NewsDataStream
 
 import os
+import requests
 from dotenv import load_dotenv
 from datetime import datetime
 
@@ -65,9 +66,8 @@ def stock_historical_bars():
     """
     request_params = StockBarsRequest(
         symbol_or_symbols=target_symbols,
-        timeframe=TimeFrame(1, TimeFrameUnit.Hour),
+        timeframe=TimeFrame(2, TimeFrameUnit.Hour),
         start=datetime(2024, 9, 28),
-        end=datetime(2024, 10, 26),
     )
 
     bars = stock_hist_client.get_stock_bars(request_params=request_params)
@@ -346,10 +346,55 @@ def stock_historical_latest_snapshot():
             f.write("\n")
 
 
+def stock_historical_news():
+    """
+    Fetches historical news data for a specified stock symbol and writes it to an output file.
+
+    This function retrieves historical news articles for a specified stock symbol ('AAPL') and saves
+    the data to a file, with each article's information organized and separated for readability.
+
+    PARAMETERS:
+        - None. Uses global variables `alpaca_api_key` and `alpaca_secret_key` for authentication.
+
+    STEPS:
+        1. Creates a `NewsRequest` object with parameters for the specified stock symbol, start date, 
+           exclusion of contentless articles, and a limit on the number of articles.
+        2. Fetches the historical news articles using `hist_news_client.get_news`.
+        3. Opens 'hist_news_output.txt' in write mode.
+        4. Writes each article's key fields (excluding 'images' and 'content') to the file,
+           with each article's data separated by newlines for readability.
+
+    OUTPUT:
+        - A file named 'hist_news_output.txt' containing key information for each news article,
+          organized and separated for easy readability.
+
+    RETURNS:
+        None
+"""
+    hist_news_client = NewsClient(api_key=alpaca_api_key, secret_key=alpaca_secret_key)
+    request_params = NewsRequest(
+        symbols='AAPL',
+        start=datetime(2024, 10, 21),
+        exclude_contentless=True,
+        limit=50
+    )
+
+    news_output = hist_news_client.get_news(request_params=request_params)
+    with open('hist_news_output.txt', 'w') as f:
+        news_list = news_output.data['news']
+
+        for news in news_list:
+            dict_news = dict(news)
+            for symbol in dict_news.keys():
+                if symbol != 'images' and symbol != 'content':
+                    f.write(f"({symbol}, {dict_news[symbol]})\n")
+            f.write("\n")
+
+
 '''--------------------------------LIVE WEBSOCKET INFORMATION---------------------------------'''
 
 
-def live_websocket_data_handler(data):
+async def live_websocket_data_handler(data):
     print(data)
     print()
 
@@ -380,9 +425,14 @@ def stock_live_updated_bars():
     stream.run()
 
 
-'''-------------------------------------EXECUTION SECTION-------------------------------------'''
-stock_historical_trades()
+def stock_live_news():
+    news_livestream = NewsDataStream(api_key=alpaca_api_key, secret_key=alpaca_secret_key)
+    news_livestream.subscribe_news(live_websocket_data_handler, 'AAPL')
+    news_livestream.run()
 
+
+'''-------------------------------------EXECUTION SECTION-------------------------------------'''
+# write function(s) to execute here
 
 end_time = time.time()
 print("Elapsed time:", end_time - start_time, "seconds")

@@ -10,7 +10,6 @@ from alpaca.data import NewsClient, NewsRequest
 from alpaca.data.live import StockDataStream, NewsDataStream
 
 import os
-import requests
 from dotenv import load_dotenv
 from datetime import datetime
 
@@ -396,7 +395,6 @@ def stock_live_news():
 
 '''-------------------------------------EXECUTION SECTION-------------------------------------'''
 # write function(s) to execute here
-stock_historical_latest_bar()
 
 end_time = time.time()
 print("Elapsed time:", end_time - start_time, "seconds")

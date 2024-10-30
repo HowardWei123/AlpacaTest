@@ -32,6 +32,18 @@ stream = StockDataStream(alpaca_api_key, alpaca_secret_key)
 
 
 '''------------------------------------HISTORICAL INFORMATION---------------------------------'''
+def write_historical_to_files(data_to_write, latest: bool, file_name: str):
+    if not latest:
+        data_to_write = data_to_write.data
+
+    with open(file_name, 'w') as f:
+        sorted_symbols = sorted(data_to_write.keys())
+        
+        for symbol in sorted_symbols:
+            f.write(f"Data for {symbol}:\n")
+            for data in data_to_write[symbol]:
+                f.write(f"{data}\n")
+            f.write("\n")
 
 
 def stock_historical_bars():
@@ -71,15 +83,8 @@ def stock_historical_bars():
     )
 
     bars = stock_hist_client.get_stock_bars(request_params=request_params)
-
-    with open('hist_bars_output.txt', 'w') as f:
-        sorted_symbols = sorted(bars.data.keys())
-        
-        for symbol in sorted_symbols:
-            f.write(f"Data for {symbol}:\n")
-            for bar in bars.data[symbol]:
-                f.write(f"{bar}\n")
-            f.write("\n")
+    
+    write_historical_to_files(data_to_write=bars, latest=False, file_name='hist_bars_output.txt')
 
 
 def stock_historical_quotes():
@@ -119,14 +124,7 @@ def stock_historical_quotes():
 
     quotes = stock_hist_client.get_stock_quotes(request_params=request_params)
 
-    with open('hist_quotes_output.txt', 'w') as f:
-        sorted_symbols = sorted(quotes.data.keys())
-        
-        for symbol in sorted_symbols:
-            f.write(f"Data for {symbol}:\n")
-            for quote in quotes.data[symbol]:
-                f.write(f"{quote}\n")
-            f.write("\n")
+    write_historical_to_files(data_to_write=quotes, latest=False, file_name='hist_quotes_output.txt')
 
 
 def stock_historical_trades():
@@ -166,14 +164,7 @@ def stock_historical_trades():
 
     trades = stock_hist_client.get_stock_trades(request_params=request_params)
 
-    with open('hist_trades_output.txt', 'w') as f:
-        sorted_symbols = sorted(trades.data.keys())
-        
-        for symbol in sorted_symbols:
-            f.write(f"Data for {symbol}:\n")
-            for trade in trades.data[symbol]:
-                f.write(f"{trade}\n")
-            f.write("\n")
+    write_historical_to_files(data_to_write=trades, latest=False, file_name='hist_trades_output.txt')
 
 
 def stock_historical_latest_quote():
@@ -208,14 +199,7 @@ def stock_historical_latest_quote():
 
     quotes = stock_hist_client.get_stock_latest_quote(request_params=request_params)
 
-    with open('latest_quote_output.txt', 'w') as f:
-        sorted_symbols = sorted(quotes.keys())
-        
-        for symbol in sorted_symbols:
-            f.write(f"Data for {symbol}:\n")
-            for quote in quotes[symbol]:
-                f.write(f"{quote}\n")
-            f.write("\n")
+    write_historical_to_files(data_to_write=quotes, latest=True, file_name='latest_quote_output.txt')
 
 
 def stock_historical_latest_trade():
@@ -250,14 +234,7 @@ def stock_historical_latest_trade():
 
     trades = stock_hist_client.get_stock_latest_trade(request_params=request_params)
 
-    with open('latest_trade_output.txt', 'w') as f:
-        sorted_symbols = sorted(trades.keys())
-        
-        for symbol in sorted_symbols:
-            f.write(f"Data for {symbol}:\n")
-            for trade in trades[symbol]:
-                f.write(f"{trade}\n")
-            f.write("\n")
+    write_historical_to_files(data_to_write=trades, latest=True, file_name='latest_trade_output.txt')
 
 
 def stock_historical_latest_bar():
@@ -293,14 +270,7 @@ def stock_historical_latest_bar():
 
     bars = stock_hist_client.get_stock_latest_bar(request_params=request_params)
 
-    with open('latest_bar_output.txt', 'w') as f:
-        sorted_symbols = sorted(bars.keys())
-        
-        for symbol in sorted_symbols:
-            f.write(f"Data for {symbol}:\n")
-            for bar in bars[symbol]:
-                f.write(f"{bar}\n")
-            f.write("\n")
+    write_historical_to_files(data_to_write=bars, latest=True, file_name='latest_bar_output.txt')
 
 
 def stock_historical_latest_snapshot():
@@ -336,14 +306,7 @@ def stock_historical_latest_snapshot():
 
     snapshots = stock_hist_client.get_stock_snapshot(request_params=request_params)
 
-    with open('latest_snapshot_output.txt', 'w') as f:
-        sorted_symbols = sorted(snapshots.keys())
-        
-        for symbol in sorted_symbols:
-            f.write(f"Data for {symbol}:\n")
-            for snapshot in snapshots[symbol]:
-                f.write(f"{snapshot}\n")
-            f.write("\n")
+    write_historical_to_files(data_to_write=snapshots, latest=True, file_name='latest_snapshot_output.txt')
 
 
 def stock_historical_news():
@@ -433,6 +396,7 @@ def stock_live_news():
 
 '''-------------------------------------EXECUTION SECTION-------------------------------------'''
 # write function(s) to execute here
+stock_historical_latest_bar()
 
 end_time = time.time()
 print("Elapsed time:", end_time - start_time, "seconds")

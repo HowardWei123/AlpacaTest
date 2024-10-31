@@ -361,32 +361,32 @@ async def live_websocket_data_handler(data):
     print()
 
 
-
+# works
 def stock_live_minute_bars():
-    stream.subscribe_bars(live_websocket_data_handler, target_symbols)
+    stream.subscribe_bars(live_websocket_data_handler, 'AAPL')
     stream.run()
 
-
+# wworks
 def stock_live_daily_bars():
-    stream.subscribe_daily_bars(live_websocket_data_handler, target_symbols)
+    stream.subscribe_daily_bars(live_websocket_data_handler, 'AAPL')
     stream.run()
 
-
+# works
 def stock_live_quotes():
-    stream.subscribe_quotes(live_websocket_data_handler, target_symbols)
+    stream.subscribe_quotes(live_websocket_data_handler, 'AAPL')
     stream.run()
 
-
+# works
 def stock_live_trades():
-    stream.subscribe_trades(live_websocket_data_handler, target_symbols)
+    stream.subscribe_trades(live_websocket_data_handler, 'AAPL')
     stream.run()
 
-
+# inconclusive during testing
 def stock_live_updated_bars():
-    stream.subscribe_updated_bars(live_websocket_data_handler, target_symbols)
+    stream.subscribe_updated_bars(live_websocket_data_handler, 'AAPL')
     stream.run()
 
-
+# inconclusive during testing (news is not a common output)
 def stock_live_news():
     news_livestream = NewsDataStream(api_key=alpaca_api_key, secret_key=alpaca_secret_key)
     news_livestream.subscribe_news(live_websocket_data_handler, 'AAPL')
@@ -395,6 +395,7 @@ def stock_live_news():
 
 '''-------------------------------------EXECUTION SECTION-------------------------------------'''
 # write function(s) to execute here
+stock_live_news()
 
 end_time = time.time()
 print("Elapsed time:", end_time - start_time, "seconds")

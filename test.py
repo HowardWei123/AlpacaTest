@@ -366,7 +366,7 @@ def stock_live_minute_bars():
     stream.subscribe_bars(live_websocket_data_handler, 'AAPL')
     stream.run()
 
-# wworks
+# works
 def stock_live_daily_bars():
     stream.subscribe_daily_bars(live_websocket_data_handler, 'AAPL')
     stream.run()

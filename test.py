@@ -77,8 +77,8 @@ def stock_historical_bars():
     """
     request_params = StockBarsRequest(
         symbol_or_symbols=target_symbols,
-        timeframe=TimeFrame(2, TimeFrameUnit.Hour),
-        start=datetime(2024, 9, 28),
+        timeframe=TimeFrame(1, TimeFrameUnit.Month),
+        start=datetime(2023, 9, 28),
     )
 
     bars = stock_hist_client.get_stock_bars(request_params=request_params)
@@ -395,7 +395,6 @@ def stock_live_news():
 
 '''-------------------------------------EXECUTION SECTION-------------------------------------'''
 # write function(s) to execute here
-stock_live_news()
 
 end_time = time.time()
 print("Elapsed time:", end_time - start_time, "seconds")

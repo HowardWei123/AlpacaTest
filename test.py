@@ -23,9 +23,9 @@ alpaca_api_key = os.getenv("APCA-API-KEY-ID")
 alpaca_secret_key = os.getenv("APCA-API-SECRET-KEY")
 
 
-target_symbols = ['AAPL', 'ABNB', 'AMD', 'AMC', 'BRK.B', 'BND', 'BEP', 'DIS', 'GME',
-                  'GOOG', 'KO', 'MSFT', 'NEE', 'NVDA', 'PG', 'PLTR', 'SPY', 'TSLA', 
-                  'UL', 'V', 'VTI', 'WMT', 'BSV', 'IWM', 'ZM']
+target_symbols = ['AAPL', 'ABNB', 'AMD', 'AMC', 'BRK.B', 'BND', 'BEP', 'BSV', 'DIS', 'GME',
+                  'GOOG', 'GOOGL', 'IWM', 'JNJ', 'KO', 'MSFT', 'NEE', 'NVDA', 'PG', 'PLTR', 'SPY', 'TSLA', 
+                  'UL', 'V', 'VTI', 'WMT','ZM']
 stock_hist_client = StockHistoricalDataClient(alpaca_api_key, alpaca_secret_key)
 stream = StockDataStream(alpaca_api_key, alpaca_secret_key)
 
@@ -395,6 +395,7 @@ def stock_live_news():
 
 '''-------------------------------------EXECUTION SECTION-------------------------------------'''
 # write function(s) to execute here
+stock_historical_bars()
 
 end_time = time.time()
 print("Elapsed time:", end_time - start_time, "seconds")

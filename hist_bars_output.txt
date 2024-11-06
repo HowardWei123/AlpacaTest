@@ -12,7 +12,7 @@ symbol='AAPL' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) 
 symbol='AAPL' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=224.37 high=232.92 low=196.0 close=229.0 volume=1122666993.0 trade_count=15120557.0 vwap=220.06895
 symbol='AAPL' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=228.55 high=233.09 low=213.92 close=233.0 volume=1232391861.0 trade_count=13644865.0 vwap=224.432403
 symbol='AAPL' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=229.52 high=237.49 low=221.33 close=225.91 volume=930835961.0 trade_count=13170202.0 vwap=229.920932
-symbol='AAPL' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=220.965 high=225.35 low=220.27 close=222.91 volume=65276741.0 trade_count=859117.0 vwap=222.804987
+symbol='AAPL' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=220.965 high=225.35 low=219.71 close=223.45 volume=138305578.0 trade_count=2007460.0 vwap=222.561775
 
 Data for ABNB:
 symbol='ABNB' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=136.55 high=138.0 low=113.235 close=118.29 volume=108408166.0 trade_count=1658182.0 vwap=123.637938
@@ -28,7 +28,7 @@ symbol='ABNB' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) 
 symbol='ABNB' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=139.7 high=139.78 low=110.38 close=117.31 volume=136894273.0 trade_count=1827080.0 vwap=118.141752
 symbol='ABNB' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=116.395 high=133.34 low=112.55 close=126.81 volume=88048200.0 trade_count=1315499.0 vwap=123.166121
 symbol='ABNB' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=127.35 high=138.66 low=123.58 close=134.79 volume=71386378.0 trade_count=1271719.0 vwap=133.32997
-symbol='ABNB' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=133.96 high=136.88 low=133.8052 close=136.46 volume=3707590.0 trade_count=56564.0 vwap=135.991239
+symbol='ABNB' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=133.96 high=140.87 low=133.8052 close=137.82 volume=11155992.0 trade_count=175073.0 vwap=137.611198
 
 Data for AMC:
 symbol='AMC' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=8.06 high=11.17 low=7.73 close=10.68 volume=442395865.0 trade_count=2023034.0 vwap=9.464222
@@ -44,7 +44,7 @@ symbol='AMC' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='AMC' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=5.3 high=5.435 low=4.41 close=4.82 volume=222406710.0 trade_count=791761.0 vwap=5.009008
 symbol='AMC' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=4.83 high=5.11 low=4.36 close=4.55 volume=193335125.0 trade_count=730782.0 vwap=4.733336
 symbol='AMC' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=4.62 high=4.65 low=4.03 close=4.39 volume=152171628.0 trade_count=569519.0 vwap=4.312837
-symbol='AMC' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=4.43 high=4.56 low=4.42 close=4.51 volume=4745218.0 trade_count=21647.0 vwap=4.494214
+symbol='AMC' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=4.43 high=4.56 low=4.31 close=4.39 volume=16173978.0 trade_count=70046.0 vwap=4.431601
 
 Data for AMD:
 symbol='AMD' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=102.21 high=111.31 low=93.115 close=98.5 volume=1161429652.0 trade_count=7902778.0 vwap=102.573933
@@ -60,7 +60,7 @@ symbol='AMD' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='AMD' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=145.0 high=162.04 low=121.825 close=148.56 volume=1101975021.0 trade_count=10464936.0 vwap=143.152694
 symbol='AMD' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=146.41 high=168.7286 low=132.1101 close=164.08 volume=660039965.0 trade_count=6916207.0 vwap=150.204662
 symbol='AMD' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=164.48 high=174.05 low=143.33 close=144.07 volume=900872241.0 trade_count=9612212.0 vwap=160.366199
-symbol='AMD' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=144.44 high=144.54 low=141.32 close=141.86 volume=39027430.0 trade_count=430158.0 vwap=142.422544
+symbol='AMD' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=144.44 high=144.54 low=139.72 close=141.66 volume=95154215.0 trade_count=1041991.0 vwap=141.967162
 
 Data for BEP:
 symbol='BEP' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=21.9 high=23.14 low=19.97 close=20.96 volume=16342709.0 trade_count=145301.0 vwap=21.300459
@@ -76,7 +76,7 @@ symbol='BEP' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='BEP' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=24.59 high=25.29 low=22.76 close=24.49 volume=10315894.0 trade_count=92232.0 vwap=24.329328
 symbol='BEP' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=24.44 high=28.61 low=23.53 close=28.18 volume=9374351.0 trade_count=80708.0 vwap=26.115503
 symbol='BEP' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=28.32 high=29.56 low=25.3 close=25.66 volume=9963351.0 trade_count=99637.0 vwap=27.427663
-symbol='BEP' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=25.65 high=25.683 low=24.95 close=25.21 volume=517560.0 trade_count=5547.0 vwap=25.308688
+symbol='BEP' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=25.65 high=26.95 low=24.95 close=26.83 volume=1278700.0 trade_count=13583.0 vwap=25.890103
 
 Data for BND:
 symbol='BND' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=69.32 high=69.735 low=67.99 close=68.53 volume=172507543.0 trade_count=552806.0 vwap=68.84581
@@ -92,7 +92,7 @@ symbol='BND' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='BND' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=73.5 high=74.85 low=73.44 close=74.36 volume=115812449.0 trade_count=534199.0 vwap=74.255706
 symbol='BND' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=74.41 high=75.67 low=74.3344 close=75.11 volume=129911166.0 trade_count=910331.0 vwap=75.158674
 symbol='BND' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=75.13 high=75.26 low=72.79 close=73.05 volume=131394747.0 trade_count=601236.0 vwap=73.797964
-symbol='BND' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=73.035 high=73.08 low=72.51 close=72.54 volume=6409880.0 trade_count=33819.0 vwap=72.681504
+symbol='BND' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=73.035 high=73.08 low=72.51 close=73.01 volume=19506857.0 trade_count=89153.0 vwap=72.77515
 
 Data for BRK.B:
 symbol='BRK.B' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=349.64 high=350.0 low=330.58 close=341.33 volume=64981496.0 trade_count=1383133.0 vwap=342.113555
@@ -108,7 +108,7 @@ symbol='BRK.B' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC))
 symbol='BRK.B' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=439.67 high=476.95 low=406.11 close=475.92 volume=86490268.0 trade_count=1835932.0 vwap=442.008624
 symbol='BRK.B' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=475.0 high=484.82 low=445.25 close=460.26 volume=86547115.0 trade_count=1837869.0 vwap=459.736191
 symbol='BRK.B' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=459.11 high=467.8393 low=450.57 close=450.92 volume=74184206.0 trade_count=1628556.0 vwap=458.667422
-symbol='BRK.B' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=451.49 high=455.12 low=450.7 close=452.14 volume=2971342.0 trade_count=71004.0 vwap=452.99167
+symbol='BRK.B' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=451.49 high=455.12 low=437.9 close=445.06 volume=11855959.0 trade_count=295727.0 vwap=444.994361
 
 Data for BSV:
 symbol='BSV' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=74.8 high=75.22 low=74.61 close=75.02 volume=61221854.0 trade_count=146232.0 vwap=74.958498
@@ -124,7 +124,7 @@ symbol='BSV' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='BSV' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=77.44 high=78.49 low=77.44 close=78.24 volume=38681395.0 trade_count=125829.0 vwap=78.017103
 symbol='BSV' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=78.12 high=79.02 low=77.9516 close=78.69 volume=36548750.0 trade_count=385473.0 vwap=78.654612
 symbol='BSV' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=78.54 high=78.6479 low=77.54 close=77.64 volume=45671110.0 trade_count=188494.0 vwap=77.965876
-symbol='BSV' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=77.47 high=77.5588 low=77.33 close=77.36 volume=1626335.0 trade_count=6539.0 vwap=77.397875
+symbol='BSV' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=77.47 high=77.5588 low=77.3201 close=77.44 volume=4770560.0 trade_count=18395.0 vwap=77.419208
 
 Data for DIS:
 symbol='DIS' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=80.92 high=86.285 low=78.7309 close=81.59 volume=245126186.0 trade_count=2675449.0 vwap=82.516613
@@ -140,7 +140,7 @@ symbol='DIS' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='DIS' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=93.86 high=93.95 low=83.91 close=90.38 volume=272165309.0 trade_count=3025537.0 vwap=88.479371
 symbol='DIS' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=89.605 high=97.57 low=86.59 close=96.19 volume=178950049.0 trade_count=1995532.0 vwap=91.997771
 symbol='DIS' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=95.19 high=97.54 low=91.46 close=96.2 volume=175744499.0 trade_count=2139675.0 vwap=95.008836
-symbol='DIS' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=95.7 high=96.39 low=94.83 close=95.81 volume=7944869.0 trade_count=93145.0 vwap=95.847623
+symbol='DIS' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=95.7 high=96.67 low=94.83 close=96.63 volume=20593706.0 trade_count=259825.0 vwap=95.917196
 
 Data for GME:
 symbol='GME' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=16.3 high=16.31 low=12.59 close=13.77 volume=71829219.0 trade_count=762203.0 vwap=14.287929
@@ -156,7 +156,7 @@ symbol='GME' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='GME' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=22.92 high=23.48 low=18.73 close=23.42 volume=133244545.0 trade_count=1265128.0 vwap=21.7136
 symbol='GME' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=24.15 high=25.015 low=19.31 close=22.93 volume=276264720.0 trade_count=1914539.0 vwap=21.802308
 symbol='GME' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=22.95 high=24.54 low=20.3 close=22.18 volume=130272841.0 trade_count=1074126.0 vwap=21.654507
-symbol='GME' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=22.4 high=23.05 low=22.08 close=22.41 volume=4744478.0 trade_count=40169.0 vwap=22.461538
+symbol='GME' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=22.4 high=23.2 low=21.8823 close=22.99 volume=14868278.0 trade_count=128955.0 vwap=22.513692
 
 Data for GOOG:
 symbol='GOOG' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=132.155 high=142.38 low=121.46 close=125.3 volume=515102954.0 trade_count=5761364.0 vwap=133.839085
@@ -172,7 +172,23 @@ symbol='GOOG' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) 
 symbol='GOOG' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=171.98 high=175.68 low=156.6 close=165.11 volume=389619175.0 trade_count=5217685.0 vwap=164.758607
 symbol='GOOG' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=163.315 high=167.36 low=148.2 close=167.19 volume=389133621.0 trade_count=4834986.0 vwap=159.097316
 symbol='GOOG' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=168.86 high=183.79 low=161.12 close=172.69 volume=381772171.0 trade_count=5332830.0 vwap=169.098276
-symbol='GOOG' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=171.54 high=173.82 low=170.31 close=172.65 volume=21752859.0 trade_count=273120.0 vwap=172.691597
+symbol='GOOG' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=171.54 high=173.82 low=169.485 close=171.41 volume=50449196.0 trade_count=648275.0 vwap=171.699874
+
+Data for GOOGL:
+symbol='GOOGL' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=131.21 high=141.22 low=120.2057 close=124.08 volume=681123927.0 trade_count=7768771.0 vwap=132.577712
+symbol='GOOGL' timestamp=datetime.datetime(2023, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=124.07 high=139.42 low=123.715 close=132.53 volume=536826114.0 trade_count=5631913.0 vwap=133.025049
+symbol='GOOGL' timestamp=datetime.datetime(2023, 12, 1, 5, 0, tzinfo=TzInfo(UTC)) open=131.86 high=142.68 low=127.9 close=139.69 volume=620089435.0 trade_count=6433461.0 vwap=135.13123
+symbol='GOOGL' timestamp=datetime.datetime(2024, 1, 1, 5, 0, tzinfo=TzInfo(UTC)) open=138.55 high=153.78 low=135.15 close=140.1 volume=581907078.0 trade_count=7086192.0 vwap=143.921579
+symbol='GOOGL' timestamp=datetime.datetime(2024, 2, 1, 5, 0, tzinfo=TzInfo(UTC)) open=142.12 high=149.44 low=135.41 close=138.46 volume=647510427.0 trade_count=8083748.0 vwap=141.946549
+symbol='GOOGL' timestamp=datetime.datetime(2024, 3, 1, 5, 0, tzinfo=TzInfo(UTC)) open=138.43 high=152.256 low=130.665 close=150.93 volume=673168428.0 trade_count=8182172.0 vwap=141.505307
+symbol='GOOGL' timestamp=datetime.datetime(2024, 4, 1, 4, 0, tzinfo=TzInfo(UTC)) open=150.69 high=174.71 low=149.6 close=162.78 volume=659869364.0 trade_count=8283280.0 vwap=158.497406
+symbol='GOOGL' timestamp=datetime.datetime(2024, 5, 1, 4, 0, tzinfo=TzInfo(UTC)) open=164.3 high=178.77 low=163.05 close=172.5 volume=542248194.0 trade_count=6858252.0 vwap=171.097346
+symbol='GOOGL' timestamp=datetime.datetime(2024, 6, 1, 4, 0, tzinfo=TzInfo(UTC)) open=172.54 high=186.05 low=171.16 close=182.15 volume=460848567.0 trade_count=5803780.0 vwap=177.877329
+symbol='GOOGL' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) open=183.03 high=191.75 low=164.06 close=171.54 volume=526148198.0 trade_count=8626277.0 vwap=179.012123
+symbol='GOOGL' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=170.25 high=174.05 low=154.93 close=163.38 volume=550739537.0 trade_count=8344622.0 vwap=162.790899
+symbol='GOOGL' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=161.72 high=166.15 low=147.215 close=165.85 volume=532684063.0 trade_count=7336551.0 vwap=157.768196
+symbol='GOOGL' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=167.685 high=182.02 low=159.74 close=171.11 volume=569355454.0 trade_count=8125196.0 vwap=167.211872
+symbol='GOOGL' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=170.07 high=172.32 low=168.011 close=169.74 volume=71518332.0 trade_count=1004338.0 vwap=170.236899
 
 Data for IWM:
 symbol='IWM' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=176.33 high=177.23 low=161.67 close=164.52 volume=854739664.0 trade_count=4846156.0 vwap=169.686556
@@ -188,7 +204,23 @@ symbol='IWM' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='IWM' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=223.77 high=224.89 low=196.7 close=220.08 volume=691762908.0 trade_count=5116211.0 vwap=211.42111
 symbol='IWM' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=218.13 high=224.94 low=204.21 close=220.89 volume=570476541.0 trade_count=4159496.0 vwap=216.556158
 symbol='IWM' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=220.17 high=227.17 low=214.6 close=217.76 volume=489976610.0 trade_count=3667565.0 vwap=220.563783
-symbol='IWM' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=219.5 high=220.97 low=218.34 close=218.98 volume=21222177.0 trade_count=165402.0 vwap=219.509213
+symbol='IWM' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=219.5 high=224.29 low=217.8401 close=224.23 volume=68221226.0 trade_count=499823.0 vwap=220.945597
+
+Data for JNJ:
+symbol='JNJ' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=155.42 high=159.27 low=144.95 close=148.34 volume=152897643.0 trade_count=2195972.0 vwap=153.249406
+symbol='JNJ' timestamp=datetime.datetime(2023, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=149.19 high=155.14 low=145.64 close=154.66 volume=131237109.0 trade_count=1864141.0 vwap=150.252814
+symbol='JNJ' timestamp=datetime.datetime(2023, 12, 1, 5, 0, tzinfo=TzInfo(UTC)) open=156.44 high=160.02 low=151.77 close=156.74 volume=146547844.0 trade_count=1827417.0 vwap=155.986828
+symbol='JNJ' timestamp=datetime.datetime(2024, 1, 1, 5, 0, tzinfo=TzInfo(UTC)) open=156.93 high=163.58 low=156.79 close=158.9 volume=138206713.0 trade_count=1881209.0 vwap=160.45963
+symbol='JNJ' timestamp=datetime.datetime(2024, 2, 1, 5, 0, tzinfo=TzInfo(UTC)) open=158.16 high=162.25 low=154.84 close=161.38 volume=158290166.0 trade_count=2001166.0 vwap=158.016618
+symbol='JNJ' timestamp=datetime.datetime(2024, 3, 1, 5, 0, tzinfo=TzInfo(UTC)) open=161.83 high=163.11 low=154.76 close=158.19 volume=140395970.0 trade_count=1903154.0 vwap=158.45246
+symbol='JNJ' timestamp=datetime.datetime(2024, 4, 1, 4, 0, tzinfo=TzInfo(UTC)) open=157.72 high=158.15 low=143.13 close=144.59 volume=176033430.0 trade_count=2548299.0 vwap=148.911498
+symbol='JNJ' timestamp=datetime.datetime(2024, 5, 1, 4, 0, tzinfo=TzInfo(UTC)) open=148.735 high=154.86 low=143.71 close=146.67 volume=174619298.0 trade_count=2275486.0 vwap=149.353049
+symbol='JNJ' timestamp=datetime.datetime(2024, 6, 1, 4, 0, tzinfo=TzInfo(UTC)) open=147.25 high=149.7199 low=143.88 close=146.16 volume=132508851.0 trade_count=1867935.0 vwap=146.907792
+symbol='JNJ' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) open=146.07 high=161.58 low=144.5 close=157.85 volume=151363123.0 trade_count=2560032.0 vwap=153.347685
+symbol='JNJ' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=158.48 high=165.98 low=156.44 close=165.86 volume=150665081.0 trade_count=2207943.0 vwap=161.337149
+symbol='JNJ' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=165.24 high=168.85 low=160.02 close=162.06 volume=120357670.0 trade_count=1932893.0 vwap=164.726192
+symbol='JNJ' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=162.43 high=166.75 low=158.775 close=159.86 volume=133028984.0 trade_count=2177545.0 vwap=162.113652
+symbol='JNJ' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=160.58 high=161.06 low=156.35 close=158.35 volume=16447317.0 trade_count=267355.0 vwap=158.862766
 
 Data for KO:
 symbol='KO' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=55.91 high=56.72 low=51.55 close=56.49 volume=387970929.0 trade_count=3749383.0 vwap=54.282352
@@ -204,7 +236,7 @@ symbol='KO' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) op
 symbol='KO' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=67.0 high=72.57 low=66.7 close=72.47 volume=311241649.0 trade_count=3421229.0 vwap=69.468066
 symbol='KO' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=72.44 high=73.53 low=70.38 close=71.86 volume=306272595.0 trade_count=3179034.0 vwap=71.639793
 symbol='KO' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=72.1 high=72.745 low=65.255 close=65.31 volume=295545868.0 trade_count=3787745.0 vwap=68.760951
-symbol='KO' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=65.47 high=65.66 low=64.89 close=65.01 volume=12163094.0 trade_count=178451.0 vwap=65.08794
+symbol='KO' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=65.47 high=65.66 low=64.64 close=65.37 volume=31925424.0 trade_count=452172.0 vwap=65.106739
 
 Data for MSFT:
 symbol='MSFT' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=316.28 high=346.2 low=311.215 close=338.11 volume=541524990.0 trade_count=8229575.0 vwap=329.99476
@@ -220,7 +252,7 @@ symbol='MSFT' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) 
 symbol='MSFT' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=420.785 high=427.46 low=385.58 close=417.14 volume=451919023.0 trade_count=8771445.0 vwap=411.653961
 symbol='MSFT' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=417.91 high=441.85 low=400.8 close=430.3 volume=376968534.0 trade_count=6936841.0 vwap=425.164007
 symbol='MSFT' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=428.45 high=438.5 low=406.3 close=406.35 volume=440766715.0 trade_count=9025518.0 vwap=419.443337
-symbol='MSFT' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=409.01 high=415.5 low=407.5 close=410.37 volume=24230442.0 trade_count=493621.0 vwap=411.511387
+symbol='MSFT' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=409.01 high=415.5 low=405.5713 close=411.46 volume=61517177.0 trade_count=1176954.0 vwap=410.516688
 
 Data for NEE:
 symbol='NEE' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=56.08 high=58.49 low=47.145 close=58.3 volume=478108555.0 trade_count=3685832.0 vwap=52.823043
@@ -236,7 +268,7 @@ symbol='NEE' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='NEE' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=76.32 high=81.07 low=75.9 close=80.51 volume=152408508.0 trade_count=1599315.0 vwap=78.531349
 symbol='NEE' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=80.77 high=85.56 low=79.26 close=84.53 volume=195906242.0 trade_count=1749193.0 vwap=82.966023
 symbol='NEE' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=84.11 high=86.1 low=78.14 close=79.25 volume=219619121.0 trade_count=2018528.0 vwap=82.348807
-symbol='NEE' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=79.39 high=79.455 low=76.965 close=77.35 volume=14615297.0 trade_count=126215.0 vwap=77.894949
+symbol='NEE' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=79.39 high=79.455 low=76.965 close=78.65 volume=35424771.0 trade_count=316286.0 vwap=78.020006
 
 Data for NVDA:
 symbol='NVDA' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=440.3 high=476.09 low=392.3001 close=407.8 volume=1014861515.0 trade_count=13717998.0 vwap=435.106267
@@ -252,7 +284,7 @@ symbol='NVDA' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) 
 symbol='NVDA' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=117.53 high=131.26 low=90.69 close=119.37 volume=8105367559.0 trade_count=53842864.0 vwap=116.03561
 symbol='NVDA' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=116.01 high=127.665 low=100.95 close=121.44 volume=6272711021.0 trade_count=39379662.0 vwap=114.490685
 symbol='NVDA' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=121.765 high=144.42 low=115.14 close=132.76 volume=5628704792.0 trade_count=37434796.0 vwap=133.59901
-symbol='NVDA' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=134.7 high=137.31 low=134.57 close=135.4 volume=207127838.0 trade_count=1423974.0 vwap=135.95656
+symbol='NVDA' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=134.7 high=140.3701 low=134.57 close=139.91 volume=554639022.0 trade_count=3944249.0 vwap=137.487352
 
 Data for PG:
 symbol='PG' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=144.78 high=151.38 low=141.45 close=150.03 volume=141708790.0 trade_count=1965301.0 vwap=146.931508
@@ -268,7 +300,7 @@ symbol='PG' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) op
 symbol='PG' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=160.88 high=171.89 low=160.68 close=171.54 volume=143601038.0 trade_count=2165332.0 vwap=168.781111
 symbol='PG' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=171.03 high=177.94 low=170.38 close=173.2 volume=152448625.0 trade_count=2049137.0 vwap=174.241608
 symbol='PG' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=173.24 high=174.905 low=165.09 close=165.18 volume=146905321.0 trade_count=2268320.0 vwap=169.90096
-symbol='PG' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=165.31 high=166.35 low=164.985 close=165.1 volume=5455095.0 trade_count=93015.0 vwap=165.484277
+symbol='PG' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=165.31 high=166.35 low=164.33 close=165.76 volume=14982643.0 trade_count=258409.0 vwap=165.430661
 
 Data for PLTR:
 symbol='PLTR' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=16.03 high=18.44 low=14.55 close=14.8 volume=1208333998.0 trade_count=3918643.0 vwap=16.607826
@@ -284,7 +316,7 @@ symbol='PLTR' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) 
 symbol='PLTR' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=27.02 high=33.125 low=21.23 close=31.48 volume=1203111044.0 trade_count=5770355.0 vwap=29.487838
 symbol='PLTR' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=31.35 high=38.19 low=29.31 close=37.2 volume=1602852746.0 trade_count=6270967.0 vwap=35.618127
 symbol='PLTR' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=37.21 high=45.14 low=36.05 close=41.56 volume=1069820349.0 trade_count=6110184.0 vwap=41.832112
-symbol='PLTR' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=41.93 high=42.57 low=41.59 close=41.92 volume=33722521.0 trade_count=227593.0 vwap=42.108213
+symbol='PLTR' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=41.93 high=51.575 low=41.0315 close=51.13 volume=316946475.0 trade_count=1763868.0 vwap=47.73437
 
 Data for SPY:
 symbol='SPY' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=426.62 high=438.14 low=409.21 close=418.2 volume=1999352317.0 trade_count=14396248.0 vwap=425.225192
@@ -300,7 +332,7 @@ symbol='SPY' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='SPY' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=552.57 high=564.2 low=510.27 close=563.68 volume=1244598926.0 trade_count=11020334.0 vwap=541.78697
 symbol='SPY' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=560.47 high=574.71 low=539.44 close=573.76 volume=1045159530.0 trade_count=9511932.0 vwap=559.749023
 symbol='SPY' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=573.4 high=586.12 low=565.27 close=568.64 volume=976134821.0 trade_count=9347479.0 vwap=576.573781
-symbol='SPY' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=571.32 high=575.55 low=570.62 close=571.04 volume=45667533.0 trade_count=464571.0 vwap=572.658516
+symbol='SPY' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=571.32 high=576.74 low=567.89 close=576.7 volume=123751674.0 trade_count=1235840.0 vwap=572.745737
 
 Data for TSLA:
 symbol='TSLA' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=244.81 high=268.94 low=194.07 close=200.84 volume=2593014984.0 trade_count=28958238.0 vwap=236.060986
@@ -316,7 +348,7 @@ symbol='TSLA' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) 
 symbol='TSLA' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=227.69 high=231.867 low=182.0 close=214.11 volume=1618373088.0 trade_count=20983111.0 vwap=209.771793
 symbol='TSLA' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=215.26 high=264.86 low=209.64 close=261.63 volume=1611441082.0 trade_count=20605520.0 vwap=234.563301
 symbol='TSLA' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=262.67 high=273.536 low=212.11 close=249.85 volume=1910969276.0 trade_count=26425543.0 vwap=242.748084
-symbol='TSLA' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=252.043 high=254.0 low=246.63 close=248.98 volume=57544757.0 trade_count=850441.0 vwap=249.993414
+symbol='TSLA' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=252.043 high=255.2799 low=238.88 close=251.44 volume=195526228.0 trade_count=2802498.0 vwap=248.680783
 
 Data for UL:
 symbol='UL' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=48.96 high=49.31 low=46.1614 close=47.35 volume=50984813.0 trade_count=525890.0 vwap=48.044389
@@ -332,7 +364,7 @@ symbol='UL' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) op
 symbol='UL' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=61.35 high=65.17 low=60.06 close=64.79 volume=65237085.0 trade_count=543598.0 vwap=62.061173
 symbol='UL' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=64.8 high=65.87 low=64.165 close=64.96 volume=37988915.0 trade_count=408607.0 vwap=65.062355
 symbol='UL' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=64.69 high=64.755 low=60.17 close=60.91 volume=39624387.0 trade_count=463845.0 vwap=62.529005
-symbol='UL' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=61.77 high=61.835 low=61.285 close=61.32 volume=1789242.0 trade_count=22405.0 vwap=61.574544
+symbol='UL' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=61.77 high=61.875 low=61.22 close=61.66 volume=4369235.0 trade_count=61104.0 vwap=61.5395
 
 Data for V:
 symbol='V' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=229.24 high=241.48 low=227.78 close=235.1 volume=129130151.0 trade_count=2053258.0 vwap=234.526276
@@ -348,7 +380,7 @@ symbol='V' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) ope
 symbol='V' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=266.33 high=276.99 low=254.51 close=276.37 volume=190347114.0 trade_count=2053174.0 vwap=263.493405
 symbol='V' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=276.37 high=293.07 low=268.23 close=274.95 volume=166278367.0 trade_count=2210964.0 vwap=281.182786
 symbol='V' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=276.97 high=296.34 low=273.24 close=289.85 volume=128711760.0 trade_count=2038782.0 vwap=283.187313
-symbol='V' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=288.49 high=292.67 low=287.19 close=290.74 volume=5471088.0 trade_count=92012.0 vwap=290.614727
+symbol='V' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=288.49 high=294.78 low=287.19 close=293.29 volume=13504161.0 trade_count=254564.0 vwap=291.769473
 
 Data for VTI:
 symbol='VTI' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=212.2 high=217.38 low=202.44 close=206.79 volume=80484620.0 trade_count=1429677.0 vwap=210.611524
@@ -364,7 +396,7 @@ symbol='VTI' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='VTI' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=273.25 high=278.53 low=251.0 close=278.38 volume=66499377.0 trade_count=1445787.0 vwap=267.363506
 symbol='VTI' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=276.8 high=284.35 low=265.92 close=283.16 volume=52995807.0 trade_count=1205107.0 vwap=276.308185
 symbol='VTI' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=283.0 high=289.6977 low=278.87 close=281.03 volume=67070828.0 trade_count=1361926.0 vwap=284.30198
-symbol='VTI' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=282.52 high=284.49 low=281.96 close=282.23 volume=2449367.0 trade_count=70731.0 vwap=283.077958
+symbol='VTI' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=282.52 high=285.3 low=280.865 close=285.3 volume=6885447.0 trade_count=186341.0 vwap=283.107471
 
 Data for WMT:
 symbol='WMT' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=159.49 high=164.33 low=151.65 close=163.41 volume=114693785.0 trade_count=1742988.0 vwap=159.532731
@@ -380,7 +412,7 @@ symbol='WMT' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) o
 symbol='WMT' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=68.91 high=77.475 low=66.67 close=77.23 volume=395298169.0 trade_count=3137392.0 vwap=71.599903
 symbol='WMT' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=77.33 high=81.6 low=76.3 close=80.75 volume=358172294.0 trade_count=2987799.0 vwap=78.899018
 symbol='WMT' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=80.68 high=83.34 low=78.98 close=81.95 volume=274959626.0 trade_count=2530489.0 vwap=81.072769
-symbol='WMT' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=82.53 high=82.53 low=81.54 close=82.19 volume=12181833.0 trade_count=119996.0 vwap=82.11164
+symbol='WMT' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=82.53 high=83.77 low=81.54 close=83.68 volume=34520914.0 trade_count=341447.0 vwap=82.695589
 
 Data for ZM:
 symbol='ZM' timestamp=datetime.datetime(2023, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=69.93 high=71.375 low=58.87 close=59.98 volume=59751540.0 trade_count=1025276.0 vwap=63.868254
@@ -396,5 +428,5 @@ symbol='ZM' timestamp=datetime.datetime(2024, 7, 1, 4, 0, tzinfo=TzInfo(UTC)) op
 symbol='ZM' timestamp=datetime.datetime(2024, 8, 1, 4, 0, tzinfo=TzInfo(UTC)) open=60.44 high=72.36 low=55.06 close=69.08 volume=98530860.0 trade_count=1245945.0 vwap=64.42182
 symbol='ZM' timestamp=datetime.datetime(2024, 9, 1, 4, 0, tzinfo=TzInfo(UTC)) open=69.08 high=70.41 low=65.87 close=69.74 volume=53638946.0 trade_count=771534.0 vwap=67.833418
 symbol='ZM' timestamp=datetime.datetime(2024, 10, 1, 4, 0, tzinfo=TzInfo(UTC)) open=69.61 high=75.96 low=66.873 close=74.74 volume=58402783.0 trade_count=881826.0 vwap=70.848249
-symbol='ZM' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=74.69 high=76.03 low=74.58 close=75.6 volume=1973480.0 trade_count=35567.0 vwap=75.6041
+symbol='ZM' timestamp=datetime.datetime(2024, 11, 1, 4, 0, tzinfo=TzInfo(UTC)) open=74.69 high=77.85 low=74.52 close=77.75 volume=6092706.0 trade_count=106209.0 vwap=76.275231
 
